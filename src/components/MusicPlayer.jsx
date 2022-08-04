@@ -19,7 +19,7 @@ function MusicPlayer() {
                 <img src={require("../img/path.png")} alt="" className=" h-[1rem] " />
             </div>
         </div>
-        <div className="lowerPart">
+        <div className="lowerPart flex items-center justify-between mt-5">
             {/* track */}
             <div className="track flex justify-between text-sm text-gray-500 flex-[2] items-center">
                 <span>2: 30</span>
